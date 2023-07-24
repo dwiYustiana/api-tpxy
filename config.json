@@ -1,0 +1,18 @@
+{
+  "app": {
+    "name": "api-tpx",
+    "debug": true,
+    "host": "127.0.0.1:3015",
+    "secret": "cd031f8f87498defcf1ed2a5f59408909275fda36aefdcfb3901cb1dac645840"
+  },
+  "database": {
+    "default": "mysql",
+    "mysql": {
+      "host": "127.0.0.1",
+      "database": "db_tpxy",
+      "user": "root",
+      "password": "",
+      "port": 3306
+    }
+  }
+}
