@@ -9,7 +9,7 @@ import (
 
 type LimitEntity struct {
 	ID          string    `gorm:"type:varchar(50);primary_key;column:id"`
-	MemberCode  string    `gorm:"type:varchar(50);column:member_code"S`
+	MemberCode  string    `gorm:"type:varchar(50);column:member_code"`
 	LimitAmount int       `gorm:"type:integer(11);column:limit_amount"`
 	LimitTenor  int       `gorm:"type:integer(11);column:limit_tenor"`
 	CreatedAt   time.Time `gorm:"column:created_at"`
